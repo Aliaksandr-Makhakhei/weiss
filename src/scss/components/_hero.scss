@@ -1,5 +1,12 @@
-.hero-content {
-    display: flex;
+.hero__content {
+   display: flex;
+}
+
+.hero__images {
+    position: relative;
+}
+.hero__image-header {
+    position: absolute;
 }
 
 
