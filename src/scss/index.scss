@@ -1,11 +1,10 @@
 //Default config
-@import '../scss/global/normalize';
 @import '../scss/global/variable';
-
+@import '../scss/global/normalize';
 
 // Components
+@import '../scss/components/wrapper';
+@import '../scss/components/container';
+@import '../scss/components/button';
 @import '../scss/components/navigation';
 @import '../scss/components/footer';
-
-// Fonts
-@import '../scss/global/fonts'

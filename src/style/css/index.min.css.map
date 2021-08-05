@@ -1,13 +1,15 @@
 {
     "version": 3,
-    "mappings": "ACAA,AAAA,CAAC,AAAC,CACE,UAAU,CAAE,UAAU,CACtB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACb,AIJD,UAAU,CACN,WAAW,CAAE,QAAQ,CACrB,GAAG,CAAE,yBAAyB",
+    "mappings": "AEAA,AAAA,CAAC,AAAC,CACE,UAAU,CAAE,UAAU,CACtB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACb,ACJD,AAAA,QAAQ,AAAC,CACL,WAAW,CAAE,mBAAmB,CACnC,ACFD,AAAA,UAAU,AAAC,CACP,SAAS,CAAE,MAAM,CACjB,MAAM,CAAE,MAAM,CACjB,ACHD,AAAA,OAAO,AAAC,CACJ,OAAO,CAAE,YAAY,CACrB,OAAO,CAAE,SAAS,CAClB,eAAe,CAAE,IAAI,CACrB,KAAK,CJHI,IAAO,CIIhB,UAAU,CJLL,IAAO,CIMf,ACND,AAAA,cAAc,AAAC,CACX,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,aAAa,CAEjC",
     "sources": [
         "../../scss/index.scss",
-        "../../scss/global/_normalize.scss",
         "../../scss/global/_variable.scss",
+        "../../scss/global/_normalize.scss",
+        "../../scss/components/_wrapper.scss",
+        "../../scss/components/_container.scss",
+        "../../scss/components/_button.scss",
         "../../scss/components/_navigation.scss",
-        "../../scss/components/_footer.scss",
-        "../../scss/global/_fonts.scss"
+        "../../scss/components/_footer.scss"
     ],
     "names": [],
     "file": "index.min.css"
