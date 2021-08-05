@@ -1,0 +1,27 @@
+.content {
+    padding-top: 100px;
+    width: 30%;
+
+    & .content__header {
+        text-transform: uppercase;
+        color: $gray-text;
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+
+    & .content__title {
+        color: $black-text;
+        line-height: 45px;
+        padding-bottom: 15px;
+    }
+
+    & .content__text {
+        color: $gray-text;
+        line-height: 28px;
+        padding-bottom: 38px;
+    }
+}
+
+
+
+

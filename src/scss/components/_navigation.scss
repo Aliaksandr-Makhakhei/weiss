@@ -1,5 +1,23 @@
 .nav-container {
     display: flex;
     justify-content: space-between;
-    padding: ;
+    align-items: center;
+    padding: 64px 0 96px 0;
+   
+    .nav__logo {
+        width: 135px;
+        height: 40px;
+    }
+    .nav__link {
+        margin-right: 40px;
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: none;
+        color: $black-text;
+
+        &:hover {
+            color: $orange;
+            border-bottom: 2px solid $orange;
+        }
+    }
 }
