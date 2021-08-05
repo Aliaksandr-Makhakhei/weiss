@@ -1,8 +1,11 @@
 //Default config
-@import '../sass/config/reset';
-@import '../sass/config/variable';
+@import '../scss/global/normalize';
+@import '../scss/global/variable';
 
 
 // Components
-@import '../sass/components/nav';
-@import '../sass/components/footer';
+@import '../scss/components/navigation';
+@import '../scss/components/footer';
+
+// Fonts
+@import '../scss/global/fonts'
