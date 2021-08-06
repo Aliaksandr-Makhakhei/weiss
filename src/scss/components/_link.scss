@@ -1,6 +1,32 @@
 .link {
+    position: relative;
     color: $orange;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: calc(50% - 3px);
+        left: 150px;
+        width: 10px;
+        height: 2px;
+        background: $orange;
+        border-radius: 2px;
+        transform: rotate(45deg);
+    }
+    
+    &:after {
+        content: "";
+        position: absolute;
+        top: calc(50% + 3px);
+        left: 150px;
+        width: 10px;
+        height: 2px;
+        background: $orange;
+        border-radius: 2px;
+        transform: rotate(-45deg);
+    }
 }
+

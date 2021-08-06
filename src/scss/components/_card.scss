@@ -1,4 +1,30 @@
 .card {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 168px;
+}
+
+.card__wrapper {
+    width: 312px;
+}
+
+.card__image {
+    transform: translate(100px 100px);
+    filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, 0.07));
+}
+
+.card__title {
+    color: $black-text;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 24px;
+}
+
+.card__text {
+    color: $gray-text;
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 24px;
 }

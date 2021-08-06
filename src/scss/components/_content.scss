@@ -1,6 +1,7 @@
 .content {
     padding-top: 100px;
-    width: 30%;
+    width: 470px;
+    
 
     & .content__header {
         text-transform: uppercase;
@@ -19,6 +20,7 @@
         color: $gray-text;
         line-height: 28px;
         padding-bottom: 38px;
+        width: 427px;
     }
 }
 
