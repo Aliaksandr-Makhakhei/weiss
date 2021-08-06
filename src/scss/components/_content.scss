@@ -1,8 +1,10 @@
 .content {
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
-    width: 470px;
+    flex: 1;
+    padding-top: 196px;
+    width: 40%;
+    border: 2px solid red;
     
 
     & .content__header {
@@ -13,6 +15,7 @@
     }
 
     & .content__title {
+        width: 70%;
         color: $black-text;
         line-height: 45px;
         padding-bottom: 15px;
@@ -21,8 +24,8 @@
     & .content__text {
         color: $gray-text;
         line-height: 28px;
-        padding-bottom: 38px;
-        width: 427px;
+        padding-bottom: 35px;
+        width: 70%;
     }
 }
 

@@ -1,6 +1,6 @@
 .button {
     position: relative;
-    padding: 0.5em 6em 0.5em 1em;
+    padding: 0.5em 1em 0.5em 1em;
     text-decoration: none;
     font-family: inherit;
     color: $white-text;
@@ -12,7 +12,11 @@
 }
 
 .button__contact {
-    width: 12%;
+    width: 10%;
+}
+
+.button__content {
+    width: 30%;
 }
 
 .button:hover {
