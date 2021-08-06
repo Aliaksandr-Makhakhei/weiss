@@ -7,19 +7,20 @@
 .hero__images {
     position: relative;
     padding-top: 96px;
+
+    .hero__image-header {
+        max-width: 100%;
+        height: auto;
+        box-shadow: -60px 85px 0px -9px #f5f8fa;
+    }
     
+    .hero__image-resize {
+        position: absolute;
+        transform: translate(-555px, 28px);
+    }
 }
 
-.hero__image-header {
-    max-width: 100%;
-    height: auto;
-    box-shadow: -60px 85px 0px -9px #f5f8fa;
-}
 
-.hero__image-resize {
-    position: absolute;
-    transform: translate(-555px, 28px);
-}
 
 
 

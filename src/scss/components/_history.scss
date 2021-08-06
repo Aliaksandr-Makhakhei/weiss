@@ -1,0 +1,49 @@
+.history-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 168px;
+
+    .history__image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+}
+
+.history__content {
+    width: 82%;
+    padding: 98px 417px 74px 98px;
+    background-color: $black-text;
+
+    .history__header {
+        padding-bottom: 24px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: $gray-text;
+    }
+    
+    .history__title {
+        padding-bottom: 24px;
+        font-size: 32px;
+        line-height: 44px;
+        color: $white-text;
+    }
+    
+    .history__text{
+        padding-bottom: 56px;
+        width: 87%;
+        font-size: 16px;
+        line-height: 26px;
+        color: $white-text;
+    }
+
+    .history__hr {
+        padding-bottom: 24px;
+    }
+}
+
+
+
+
+
