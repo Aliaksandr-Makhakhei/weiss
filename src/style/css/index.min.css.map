@@ -16,6 +16,7 @@
         "../../scss/components/_feauture.scss",
         "../../scss/components/_history.scss",
         "../../scss/components/_hr.scss",
+        "../../scss/components/_article.scss",
         "../../scss/components/_footer.scss"
     ],
     "names": [],
