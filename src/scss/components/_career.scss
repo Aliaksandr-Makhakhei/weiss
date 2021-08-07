@@ -33,8 +33,9 @@
     }
 
     .career__image {
+        object-fit: contain;
         max-width: 100%;
-        height: auto;
+        
     }
 
     .career__article-button {
