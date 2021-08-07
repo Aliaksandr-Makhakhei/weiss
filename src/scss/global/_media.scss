@@ -1,6 +1,77 @@
-// @media (max-width: 320px) {
-//     .nav__menu {
-//         display: none;
-//     }
+@media (max-width: 320px) {
+    .wrapper {
+        font-size: 14px;
+    }
+
+    .nav-container {
+        padding-top: 25px;
+    }
+
+    .nav__menu {
+        display: none;
+    }
+
+    .button__contact {
+        display: none;
+    }
+
+    .hero__content {
+        padding-top: 70px !important;
+        text-align: center;
+
+        .hero__content-text {
+            width: 100% !important;
+        }
+    }
+
+    .button__content {
+        width: 100%;
+    }
+
+    .hero__images {
+        padding-top: 75px;
+
+        .hero__image-header {
+            box-shadow: none;
+        }
+
+        .hero__image-resize {
+            display: none;
+        }
+    }
+
+    .feauture-container {
+        padding-top: 30px;
+        text-align: center;
+
+        .feauture__header {
+            width: 100%;
+        }
+    }
+
+    .card__wrapper {
+        padding-top: 40px !important;
+        flex: 1 0 100%;
+
+        .card__image {
+            padding-bottom: 0 !important;
+        }
+    }
+
+    .articles__header {
+        padding-top: 40px;
+
+        .article__caption {
+            flex-basis: 100%;
+            text-align: center;
+        }
+
+        ..article__button {
+           flex-basis: 100%;
+        }
+    }
+
     
-// }
+
+
+}

@@ -19,7 +19,8 @@
         }
         
         .footer__content {
-            flex: 1;
+            border: 1px solid red;
+            flex-basis: 10%;
         }
         
         .footer__title {
@@ -28,7 +29,6 @@
         }
         
         .footer__text {
-            
             padding-top: 8px;
             color: $white-text;
             font-size: $main;
