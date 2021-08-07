@@ -10,12 +10,12 @@
 
     &-title {
         padding-bottom: 16px;
-        font-size: 24px;
+        font-size: $second-title;
         color: $black-text;
     }
     
     &-text {
-        font-size: 16px;
+        font-size: $main;
         line-height: 28px;
         color: $gray-text;
     }
@@ -36,7 +36,7 @@
 
 .articles__subtitle {
     padding-top: 80px;
-    font-size: 14px;
+    font-size: $subtitle;
     text-transform: uppercase;
     color: $gray-text;
 }
@@ -46,14 +46,14 @@
     padding-top: 32px;
 
     &__title {
-        font-size: 20px;
+        font-size: $column-title;
         line-height: 30px;
         color: $black-text;
     }
 
     &__text {
         padding: 20px 0;
-        font-size: 16px;
+        font-size: $main;
         line-height: 28px;
         color: $gray-text;
     }

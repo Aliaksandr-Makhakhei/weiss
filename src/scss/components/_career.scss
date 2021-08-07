@@ -15,17 +15,17 @@
         .career__article-header {
             color: $gray-text;
             text-transform: uppercase;
-            font-size: 14px;
+            font-size: $subtitle;
         }
     
         .career__article-title {
             color: $black-text;
-            font-size: 32px;
+            font-size: $head-title;
             padding-top: 16px;
         }
     
         .career__article-text {
-            font-size: 16px;
+            font-size: $main;
             line-height: 28px;
             padding: 24px 0 36px 0;
             color: $gray-text;

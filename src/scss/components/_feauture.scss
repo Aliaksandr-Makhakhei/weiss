@@ -3,12 +3,12 @@
 
     .feauture__title {
         padding-bottom: 16px;
-        font-size: 24px;
+        font-size: $second-title;
         color: $black-text;
     }
     
     .feauture__text {
-        font-size: 16px;
+        font-size: $main;
         line-height: 28px;
         color: $gray-text;
     }
