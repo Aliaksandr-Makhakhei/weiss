@@ -1,0 +1,46 @@
+.career-container {
+    padding-top: 200px;
+}
+
+.career__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .career__article {
+        width: 27%;
+        padding-top: 224px;
+    
+        .career__article-header {
+            color: $gray-text;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+    
+        .career__article-title {
+            color: $black-text;
+            font-size: 32px;
+            padding-top: 16px;
+        }
+    
+        .career__article-text {
+            font-size: 16px;
+            line-height: 28px;
+            padding: 24px 0 36px 0;
+            color: $gray-text;
+        }
+    }
+
+    .career__image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .career__article-button {
+        padding: 0.5em 4.5em 0.5em 1em;
+    }    
+}
+
+
+
+
