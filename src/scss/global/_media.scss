@@ -16,6 +16,7 @@
     }
 
     .hero__content {
+        flex-basis: 100% !important;
         padding-top: 70px !important;
         text-align: center;
 
@@ -29,9 +30,12 @@
     }
 
     .hero__images {
+        width: 100%;
         padding-top: 75px;
+        border: 1px solid red;
 
         .hero__image-header {
+            width: 100%;
             box-shadow: none;
         }
 
