@@ -2,6 +2,33 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    .hero__content {
+        display: flex;
+        flex-direction: column;
+        flex: 0 1 49%;
+        padding-top: 196px;
+    
+        .hero__content-header {
+            text-transform: uppercase;
+            color: $gray-text;
+            font-size: $subtitle;
+            padding-bottom: 15px;
+        }
+    
+        .hero__content-title {
+            color: $black-text;
+            line-height: 45px;
+            padding-bottom: 15px;
+        }
+    
+        .hero__content-text {
+            color: $gray-text;
+            line-height: 28px;
+            padding-bottom: 35px;
+            width: 70%;
+        }
+    }
 }
 
 .hero__images {

@@ -2,6 +2,7 @@
 @import '../scss/global/variable';
 @import '../scss/global/normalize';
 
+
 // Components
 @import '../scss/components/wrapper';
 @import '../scss/components/container';
@@ -9,7 +10,6 @@
 @import '../scss/components/button';
 @import '../scss/components/link';
 @import '../scss/components/hero';
-@import '../scss/components/content';
 @import '../scss/components/card';
 @import '../scss/components/feauture';
 @import '../scss/components/history';
@@ -18,3 +18,5 @@
 @import '../scss/components/career';
 @import '../scss/components/footer';
 @import '../scss/components/copyright';
+
+@import '../scss/global/media';
