@@ -33,6 +33,7 @@
     .hero__images {
         width: 100%;
         padding-top: 75px;
+        
 
         .hero__image-header {
             width: 100%;
@@ -56,11 +57,20 @@
     .card__wrapper {
         padding-top: 40px !important;
         flex: 1 0 100%;
-
+        
         .card__image {
             padding-bottom: 0 !important;
         }
     }
+
+    .history-container {
+        padding-top: 80px !important;
+    }
+
+    .history__content {
+        box-shadow: none ;
+    }
+
 
     .articles__header {
         padding-top: 40px;
@@ -68,14 +78,57 @@
         .article__caption {
             flex-basis: 100%;
             text-align: center;
-        }
-
-        .article__button {
-           flex-basis: 100%;
+            padding-bottom: 20px;
         }
     }
 
-    
+    .articles__subtitle {
+        text-align: center;
+    }
+
+    .article {
+        flex-basis: 100% !important;
+        text-align: center;
+    }
+
+    .career-container {
+        padding-top: 50px !important;
+    }
+
+    .career__article {
+        flex-basis: 100% !important;
+        padding-top: 0px !important;
+    }
+
+    .career__content {
+        text-align: center;
+    }
+
+    .career__image {
+        padding-top: 50px;
+        flex-basis: 100% !important;
+        width: 100% !important;
+        flex-grow: 1 !important;
+    }
+
+    .footer-container {
+        max-width: 100%;
+
+        .footer_header {
+            justify-content: space-around;
+        }
+
+        .footer__articles {
+            padding-top: 30px;
+            justify-content: space-around;
+        }
+
+        .copyright {
+            text-align: center;
+        }
+    }
+
+
 
 
 }
