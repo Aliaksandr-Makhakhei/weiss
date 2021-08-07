@@ -86,11 +86,9 @@
     }
 
     .history__image {
-        padding: 0 20px;
+        padding: 40px 25px 0 25px;
         position: inherit !important;
-        padding-top: 40px;
     }
-
 
     .articles__header {
         justify-content: center;
@@ -128,9 +126,6 @@
 
     .career__image {
         padding-top: 50px;
-        flex-basis: 100% !important;
-        width: 100% !important;
-        flex-grow: 1 !important;
     }
 
     .career__button {
@@ -142,7 +137,12 @@
         max-width: 100%;
 
         .footer_header {
+            padding-top: 40px !important;
             justify-content: space-around;
+        }
+
+        .footer__content {
+            padding: 0 !important;
         }
 
         .footer__articles {
