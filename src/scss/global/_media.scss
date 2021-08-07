@@ -153,8 +153,13 @@
             justify-content: space-around;
         }
 
+        .footer__image {
+            padding: 0 !important;
+        }
+
         .copyright {
             text-align: center;
+            padding: 20px 0 !important;
         }
     }
 
