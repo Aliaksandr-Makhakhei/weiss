@@ -1,9 +1,12 @@
 .card {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
+    
 
     .card__wrapper {
+        flex-basis: 312px;
+        height: 605px;
         width: 26%;
         padding-top: 80px;
 

@@ -31,6 +31,7 @@
 
 .articles__list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -42,7 +43,7 @@
 }
 
 .article {
-    width: 30%;
+    flex-basis: 361px;
     padding-top: 32px;
 
     &__title {
