@@ -1,7 +1,5 @@
 .hero-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    @include flex;
 
     .hero__content {
         display: flex;
@@ -9,24 +7,24 @@
         flex: 0 1 49%;
         padding-top: 196px;
     
-        .hero__content-header {
+        &-header {
+            padding-bottom: 15px;
             text-transform: uppercase;
             color: $gray-text;
             font-size: $subtitle;
-            padding-bottom: 15px;
         }
     
-        .hero__content-title {
+        &-title {
+            padding-bottom: 15px;
             color: $black-text;
             line-height: 45px;
-            padding-bottom: 15px;
         }
     
-        .hero__content-text {
-            color: $gray-text;
-            line-height: 28px;
+        &-text {
             padding-bottom: 35px;
             width: 70%;
+            color: $gray-text;
+            line-height: 28px;
         }
     }
 }
@@ -35,13 +33,12 @@
     position: relative;
     padding-top: 96px;
 
-    .hero__image-header {
-        max-width: 100%;
-        height: auto;
+    &-header {
+        @include image;
         box-shadow: -60px 85px 0px -9px #f5f8fa;
     }
     
-    .hero__image-resize {
+    &-resize {
         position: absolute;
         transform: translate(-555px, 28px);
     }

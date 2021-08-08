@@ -1,9 +1,9 @@
 .link {
     position: relative;
-    color: $orange;
-    text-decoration: none;
     font-weight: 500;
     font-size: $main;
+    color: $orange;
+    text-decoration: none;
 
     &:before {
         content: "";

@@ -2,48 +2,49 @@
     position: relative;
     padding: 0.5em 1em 0.5em 1em;
     text-decoration: none;
-    font-family: inherit;
     color: $white-text;
     background: $orange;
     border: none;
     outline: none;
     cursor: pointer;
     transition: background 0.4s ease-in-out;
+
+    &:hover {
+        background: rgb(238, 96, 2);
+    }
+    
+    &:before {
+        content: "";
+        position: absolute;
+        top: calc(50% - 3px);
+        right: 15px;
+        width: 10px;
+        height: 2px;
+        background: white;
+        border-radius: 2px;
+        transform: rotate(45deg);
+    }
+    
+    &:after {
+        content: "";
+        position: absolute;
+        top: calc(50% + 3px);
+        right: 15px;
+        width: 10px;
+        height: 2px;
+        background: white;
+        border-radius: 2px;
+        transform: rotate(-45deg);
+    }
 }
 
 .button__contact {
-    width: 10%;
+    width: 10%; 
 }
 
 .button__content {
     width: 35%;
 }
 
-.button:hover {
-    background: rgb(238, 96, 2);
-}
 
-.button:before {
-    content: "";
-    position: absolute;
-    top: calc(50% - 3px);
-    right: 15px;
-    width: 10px;
-    height: 2px;
-    background: white;
-    border-radius: 2px;
-    transform: rotate(45deg);
-}
-
-.button:after {
-    content: "";
-    position: absolute;
-    top: calc(50% + 3px);
-    right: 15px;
-    width: 10px;
-    height: 2px;
-    background: white;
-    border-radius: 2px;
-    transform: rotate(-45deg);
-}
 

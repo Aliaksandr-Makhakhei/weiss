@@ -2,15 +2,12 @@
     background-color: $black-text;
 
     .footer_header {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        @include flex;
         padding-top: 40px;
 
         .footer__image {
             padding-left: 40px;
-            max-width: 100%;
-            height: auto;
+            @include image;
         }        
 
         .footer__articles {

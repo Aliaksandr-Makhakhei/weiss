@@ -1,36 +1,33 @@
 .career-container {
     padding-top: 200px;
+
+    .career__content {
+        @include flex;
+        padding-bottom: 116px;
+    
+        .career__article {
+            flex-basis: 27%;
+            padding-top: 224px;
+        
+            .career__article-header {
+                color: $gray-text;
+                text-transform: uppercase;
+                font-size: $subtitle;
+            }
+        
+            .career__article-title {
+                padding-top: 16px;
+                color: $black-text;
+                font-size: $head-title;
+            }
+        
+            .career__article-text {
+                padding: 24px 0 36px 0;
+                @include main-font;
+                color: $gray-text;
+            }
+        }
 }
-
-.career__content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-bottom: 116px;
-
-    .career__article {
-        flex-basis: 27%;
-        padding-top: 224px;
-    
-        .career__article-header {
-            color: $gray-text;
-            text-transform: uppercase;
-            font-size: $subtitle;
-        }
-    
-        .career__article-title {
-            color: $black-text;
-            font-size: $head-title;
-            padding-top: 16px;
-        }
-    
-        .career__article-text {
-            font-size: $main;
-            line-height: 28px;
-            padding: 24px 0 36px 0;
-            color: $gray-text;
-        }
-    }
 
     .career__images {
         max-width: 100%;

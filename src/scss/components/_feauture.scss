@@ -8,8 +8,7 @@
     }
     
     .feauture__text {
-        font-size: $main;
-        line-height: 28px;
+        @include main-font;
         color: $gray-text;
     }
 }

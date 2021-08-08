@@ -1,0 +1,24 @@
+//Adaptive block
+@mixin flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+//Adaptive image
+@mixin image {
+    max-width: 100%;
+    height: auto;
+}
+
+//Font-size + line-height
+@mixin main-font {
+    font-size: $main;
+    line-height: 28px;
+}
+
+@mixin medium-font {
+    font-size: $column-title;
+    line-height: 30px;
+}
+

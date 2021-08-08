@@ -1,0 +1,38 @@
+.menu-btn {
+    position: absolute;
+    top: 37px !important;
+    top: calc(50% - 14px);
+    right: 25px;
+    display: block;
+    width: 30px;
+    height: 28px;
+    z-index: 1;
+    cursor: pointer;
+
+    &__burger {
+        position: absolute;
+        top: 13px;
+        height: 2px;
+        width: 30px;
+        background-color: #333333;
+    }
+    
+    &__burger:before {
+        content: '';
+        position: absolute;
+        top: -10px;
+        height: 2px;
+        width: 30px;
+        background-color: #333333;
+    }
+    
+    &__burger:after {
+        content: '';
+        position: absolute;
+        top: 10px;
+        height: 2px;
+        width: 30px;
+        background-color: #333333;
+    }
+}
+

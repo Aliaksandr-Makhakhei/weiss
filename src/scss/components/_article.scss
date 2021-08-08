@@ -1,38 +1,29 @@
 .articles__header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    @include flex;
     padding-top: 264px;
-}
 
-.article__caption {
-    flex-basis: 40%;
-
-    &-title {
-        padding-bottom: 16px;
-        font-size: $second-title;
-        color: $black-text;
-    }
+    .article__caption {
+        flex-basis: 40%;
     
-    &-text {
-        font-size: $main;
-        line-height: 28px;
-        color: $gray-text;
+        &-title {
+            padding-bottom: 16px;
+            font-size: $second-title;
+            color: $black-text;
+        }
+        
+        &-text {
+            @include main-font;
+            color: $gray-text;
+        }
     }
-}
 
-.article__button {
-    align-self: flex-end;
-
-    .article__caption-button {
-        padding: 0.5em 3em 0.5em 1em;
+    .article__button {
+        align-self: flex-end;
+    
+        .article__caption-button {
+            padding: 0.5em 3em 0.5em 1em;
+        }
     }
-}
-
-.articles__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .articles__subtitle {
@@ -42,20 +33,25 @@
     color: $gray-text;
 }
 
-.article {
-    flex-basis: 27%;
-    padding-top: 32px;
+.articles__list {
+    @include flex;
 
-    &__title {
-        font-size: $column-title;
-        line-height: 30px;
-        color: $black-text;
-    }
-
-    &__text {
-        padding: 20px 0;
-        font-size: $main;
-        line-height: 28px;
-        color: $gray-text;
+    .article {
+        flex-basis: 27%;
+        padding-top: 32px;
+    
+        &__title {
+            @include medium-font;
+            color: $black-text;
+        }
+    
+        &__text {
+            padding: 20px 0;
+            @include main-font;
+            color: $gray-text;
+        }
     }
 }
+
+
+
