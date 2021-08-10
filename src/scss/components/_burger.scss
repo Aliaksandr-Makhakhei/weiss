@@ -1,15 +1,14 @@
-.menu-btn {
+.nav__burger {
     position: absolute;
-    top: 37px !important;
-    top: calc(50% - 14px);
-    right: 25px;
+    top: 41px;
+    right: 12px; //rem???
     display: block;
     width: 30px;
-    height: 28px;
+    height: 25px;
     z-index: 1;
     cursor: pointer;
 
-    &__burger {
+    &-btn {
         position: absolute;
         top: 13px;
         height: 2px;
@@ -17,7 +16,7 @@
         background-color: #333333;
     }
     
-    &__burger:before {
+    &-btn:before {
         content: '';
         position: absolute;
         top: -10px;
@@ -26,7 +25,7 @@
         background-color: #333333;
     }
     
-    &__burger:after {
+    &-btn:after {
         content: '';
         position: absolute;
         top: 10px;

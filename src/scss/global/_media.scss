@@ -1,5 +1,5 @@
 @media (min-width: 992px) {
-    .menu-btn {
+    .nav__burger {
         display: none;
     }
 }
@@ -9,12 +9,16 @@
         font-size: 14px;
     }
 
+    .container {
+        max-width: 90%;
+    }
+
     .menu-btn {
         display: block;
     }
     
     .nav-container {
-        padding-top: 25px;
+        padding: 2rem 0 2rem 0;
     }
 
     .nav__menu {
@@ -26,7 +30,7 @@
     }
 
     .hero__content {
-        flex-basis: 100% !important;
+        width: 100% !important;
         padding-top: 70px !important;
         text-align: center;
 
@@ -76,7 +80,7 @@
 
     .history__content {
         width: 100%;
-        padding: 40px 0 !important;
+        padding: 40px 10px !important;
         text-align: center;
         box-shadow: none;
 
@@ -91,6 +95,7 @@
     }
 
     .history__image {
+        width: 100% !important;
         position: inherit !important;
         padding: 40px 25px 0 25px;
     }

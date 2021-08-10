@@ -1,28 +1,25 @@
 .hero-container {
     @include flex;
-
+    
     .hero__content {
-        display: flex;
-        flex-direction: column;
-        flex: 0 1 49%;
-        padding-top: 196px;
+        width: 469px;
+        padding-top: 6.25rem;
     
         &-header {
-            padding-bottom: 15px;
+            padding-bottom: 0.95rem;
             text-transform: uppercase;
             color: $gray-text;
             font-size: $subtitle;
         }
     
         &-title {
-            padding-bottom: 15px;
+            padding-bottom: 0.95rem;
             color: $black-text;
             line-height: 45px;
         }
     
         &-text {
-            padding-bottom: 35px;
-            width: 70%;
+            padding-bottom: 2.2rem;
             color: $gray-text;
             line-height: 28px;
         }
@@ -31,7 +28,6 @@
 
 .hero__images {
     position: relative;
-    padding-top: 96px;
 
     &-header {
         @include image;

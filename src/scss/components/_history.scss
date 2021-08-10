@@ -2,7 +2,7 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 168px;
+    padding-top: 10.5rem;
 
     .history__image {
         position: absolute;
@@ -15,26 +15,26 @@
 
 .history__content {
     width: 82%;
-    padding: 98px 417px 74px 98px;
+    padding: 6.125rem 26rem 4.625rem 6.125rem;
     background-color: $black-text;
     box-shadow: -60px 85px 0px -9px #f5f8fa;
 
     .history__header {
-        padding-bottom: 24px;
-        font-size: 14px;
+        padding-bottom: 1.5rem;
+        font-size: $second-title;
         text-transform: uppercase;
         color: $gray-text;
     }
     
     .history__title {
-        padding-bottom: 24px;
+        padding-bottom: 1.5rem;
         font-size: $head-title;
         line-height: 44px;
         color: $white-text;
     }
     
     .history__text{
-        padding-bottom: 56px;
+        padding-bottom: 3.5rem;
         width: 87%;
         font-size: $main;
         line-height: 26px;
@@ -42,7 +42,7 @@
     }
 
     .history__hr {
-        padding-bottom: 24px;
+        padding-bottom: 1.5rem;
     }
 }
 

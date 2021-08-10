@@ -1,8 +1,9 @@
 .nav-container {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 64px;
+    padding: 4rem 0 6rem 0;
     
     .nav__link {
         font-weight: bold;
@@ -11,7 +12,7 @@
         color: $black-text;
 
         &:not(:last-child) {
-            margin-right: 40px;
+           padding-right: 2.5rem;
         }
 
         &:hover {

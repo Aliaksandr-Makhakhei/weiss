@@ -3,22 +3,22 @@
 
     .footer_header {
         @include flex;
-        padding-top: 40px;
+        padding-top: 2.5rem;
 
         .footer__image {
-            padding-left: 40px;
+            padding-left: 2.5rem;
             @include image;
         }        
 
         .footer__articles {
             display: flex;
             flex-wrap: wrap;
-            padding-bottom: 64px;
+            padding-bottom: 4rem;
         }
         
         .footer__content {
             flex-basis: 10%;
-            padding-right: 40px;
+            padding-right: 2.5rem;
         }
         
         .footer__title {
@@ -27,7 +27,7 @@
         }
         
         .footer__text {
-            padding-top: 8px;
+            padding-top: 0.5rem;
             color: $white-text;
             font-size: $main;
         }
