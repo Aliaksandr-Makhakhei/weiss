@@ -1,13 +1,10 @@
 .card {
     @include flex;
     padding-top: 5rem;
-    border: 1px solid red;
 
-    
     .card__wrapper {
         align-self: center;
         width: 350px;
-        border: 1px solid red;
         
         .card__images {
             padding-bottom: 1.5rem;

@@ -1,11 +1,10 @@
 .articles__header {
     @include flex;
     padding-top: 16.5rem;
-    border: 1px solid red;
 
     .article__caption {
         width: 488px;
-        border: 1px solid red;
+
         &-title {
             padding-bottom: 1rem;
             font-size: $second-title;
@@ -20,10 +19,9 @@
 
     .article__button {
         align-self: flex-end;
-        border: 1px solid red;
+        
         .article__caption-button {
             padding: 0.5em 3em 0.5em 1em;
-            border: 1px solid red;
         }
     }
 }
@@ -33,17 +31,14 @@
     font-size: $subtitle;
     text-transform: uppercase;
     color: $gray-text;
-    border: 1px solid red;
 }
 
 .articles__list {
     @include flex;
-    border: 1px solid red;
 
     .article {
-        flex-basis: 27%;
+        width: 340px;
         padding-top: 32px;
-        border: 1px solid red;
         
         &__title {
             @include medium-font;
