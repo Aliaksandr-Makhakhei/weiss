@@ -5,12 +5,14 @@
 }
 
 @media (min-width: 320px) and (max-width: 992px) {
+    html {
+        font-size: 14px;
+    }
+
     .menu-btn {
         display: block;
     }
-    .wrapper {
-        font-size: 14px;
-    }
+    
 
     .nav-container {
         padding-top: 25px;
@@ -36,7 +38,6 @@
 
     .button__content {
         margin: auto;
-        width: 70%;
     }
 
     .hero__images {
