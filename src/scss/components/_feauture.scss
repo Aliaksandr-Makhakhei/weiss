@@ -2,14 +2,12 @@
     width: 43%;
 
     .feauture__title {
-        padding-bottom: 1rem;
-        font-size: $second-title;
-        color: $black-text;
+        @include font($second-title, 4.4rem, bold, $black-text);
+        padding-bottom: 1.6rem;
     }
     
     .feauture__text {
-        @include main-font;
-        color: $gray-text;
+        @include font($main, 2.8rem, 400, $gray-text);
     }
 }
 

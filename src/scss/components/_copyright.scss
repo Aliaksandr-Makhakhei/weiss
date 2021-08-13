@@ -1,5 +1,4 @@
 .copyright {
-    padding: 1.25rem 2.5rem;
-    font-size: $subtitle;
-    color: $gray-text;
+    @include font($subtitle, 3rem, 400, $gray-text);
+    padding: 2rem 4rem;
 }

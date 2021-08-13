@@ -3,33 +3,33 @@
 
     .footer_header {
         @include flex;
-        padding-top: 2.5rem;
+        padding-top: 4rem;
 
         .footer__image {
-            padding-left: 2.5rem;
             @include image;
+            padding-left: 4rem;
         }        
 
         .footer__articles {
             display: flex;
             flex-wrap: wrap;
-            padding-bottom: 4rem;
+            padding-bottom: 6.4rem;
         }
         
         .footer__content {
             flex-basis: 10%;
-            padding-right: 2.5rem;
+            padding-right: 4rem;
         }
         
         .footer__title {
-            color: $white-text;
-            font-size: $subtitle;
+            @include font($subtitle, 1.8rem, bold, $white-text);
+            text-transform: uppercase;
+            letter-spacing: 1.75px;
         }
         
         .footer__text {
-            padding-top: 0.5rem;
-            color: $white-text;
-            font-size: $main;
+            @include font($main, 2.6rem, 400, $white-text);
+            padding-top: 0.8rem;
         }
     }
 }

@@ -1,13 +1,13 @@
 .card {
     @include flex;
-    padding-top: 5rem;
+    padding-top: 8rem;
 
     .card__wrapper {
         align-self: center;
         width: 340px;
         
         .card__images {
-            padding-bottom: 1.5rem;
+            padding-bottom: 2.4rem;
         }
         
         .card__image {
@@ -15,16 +15,13 @@
         }
         
         .card__title {
-            color: $black-text;
-            font-weight: bold;
-            @include medium-font;
-            padding-bottom: 1.5rem;
+            @include font($column-title, 3rem, bold, $black-text);
+            padding-bottom: 2.4rem;
         }
         
         .card__text {
-            color: $gray-text;
-            @include main-font;
-            padding-bottom: 1.5rem;
+            @include font($main, 2.8rem, 400, $gray-text);
+            padding-bottom: 2.4rem;
         }
     }
 }

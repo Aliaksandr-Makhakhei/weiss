@@ -3,25 +3,23 @@
     
     .hero__content {
         width: 38%;
-        padding-top: 6.25rem;
+        padding-top: 10rem;
     
         &-header {
-            padding-bottom: 0.95rem;
+            @include font($subtitle, 2rem, bold, $gray-text);
+            padding-bottom: 1.5rem;
+            letter-spacing: 0.1em;
             text-transform: uppercase;
-            color: $gray-text;
-            font-size: $subtitle;
         }
     
         &-title {
-            padding-bottom: 0.95rem;
-            color: $black-text;
-            line-height: 45px;
+            @include font($head-title, 4.5rem, bold, $black-text);
+            padding-bottom: 1.5rem;
         }
     
         &-text {
-            padding-bottom: 2.2rem;
-            color: $gray-text;
-            line-height: 28px;
+            @include font($main, 2.8rem, 400, $gray-text);
+            padding-bottom: 3.5rem;
         }
     }
 }
@@ -31,12 +29,12 @@
 
     &-header {
         @include image;
-        box-shadow: -45px 55px 0px -9px #f5f8fa;
+        box-shadow: -4.5rem 5.5rem 0 -0.9rem #f5f8fa;
     }
     
     &-resize {
         position: absolute;
-        transform: translate(-555px, 28px);
+        transform: translate(-55.5rem, 2.8rem);
     }
 }
 

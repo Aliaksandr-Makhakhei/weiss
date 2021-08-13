@@ -22,3 +22,12 @@
     line-height: 30px;
 }
 
+@mixin font($size, $height, $weight, $text-color: $black-text){
+    font-size: $size;
+    line-height: $height;
+    font-weight: $weight;
+    color: $text-color;
+}
+
+
+
