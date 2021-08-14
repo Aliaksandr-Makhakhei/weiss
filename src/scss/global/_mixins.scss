@@ -11,17 +11,7 @@
     height: auto;
 }
 
-//Font-size + line-height
-@mixin main-font {
-    font-size: $main;
-    line-height: 28px;
-}
-
-@mixin medium-font {
-    font-size: $column-title;
-    line-height: 30px;
-}
-
+//Font
 @mixin font($size, $height, $weight, $text-color: $black-text){
     font-size: $size;
     line-height: $height;

@@ -1,8 +1,6 @@
 .link {
+    @include font($main, 2.8rem, 500, $orange);
     position: relative;
-    font-weight: 500;
-    font-size: $main;
-    color: $orange;
     text-decoration: none;
 
     &:before {

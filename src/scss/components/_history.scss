@@ -20,27 +20,22 @@
     box-shadow: -6rem 8.5rem 0 -0.9rem #f5f8fa;
 
     .history__header {
+        @include font($subtitle, 2rem, bold, $gray-text);
         padding-bottom: 2.4rem;
-        font-size: $subtitle;
         text-transform: uppercase;
-        color: $gray-text;
         letter-spacing: 0.1em;
-        line-height: 20px;
+        
     }
     
     .history__title {
+        @include font($head-title, 4.4rem, bold, $white-text);
         padding-bottom: 2.4rem;
-        font-size: $head-title;
-        line-height: 44px;
-        color: $white-text;
     }
     
     .history__text{
+        @include font($main, 2.6rem, 400, $white-text);
         padding-bottom: 5.6rem;
         width: 87%;
-        font-size: $main;
-        line-height: 26px;
-        color: $white-text;
     }
 
     .history__hr {
